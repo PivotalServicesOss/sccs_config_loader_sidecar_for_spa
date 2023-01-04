@@ -1,0 +1,27 @@
+{
+    "$schema": "https://json.schemastore.org/launchsettings.json",
+    "profiles": {
+        "Kerberos.Dotnet.Application": {
+            "commandName": "Project",
+            "dotnetRunMessages": true,
+            "launchBrowser": true,
+            "applicationUrl": "https://localhost:5142",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "development",
+                "APPLICATION_NAME": "ui",
+                "CONFIGSERVER_URI": "https://localhost:8888/",
+                "CONFIG_FOLDER_PATH": "C:/angular-config/",
+                "CONFIG_FILE_NAME": "config.json",
+                "ENABLE_DIAGNOSTICS_ENDPOINTS": true
+            }
+        },
+        "IIS Express": {
+            "commandName": "IISExpress",
+            "launchBrowser": true,
+            "applicationUrl": "https://localhost:5142",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "development"
+            }
+        }
+    }
+}
